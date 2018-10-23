@@ -1,0 +1,4 @@
+env.json
+.terraform
+terraform.tfstate*
+terraform.log

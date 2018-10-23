@@ -1,0 +1,8 @@
+{
+  "name": "sagemaker-observer",
+  "description": "",
+  "runtime": "python3.6",
+  "role": "arn:aws:iam::YOUR_AWS_ACCOUNT_ID:role/sagemaker-observer_lambda_role",
+  "defaultEnvironment": "dev",
+  "nameTemplate": "{{.Project.Name}}_{{.Function.Name}}"
+}

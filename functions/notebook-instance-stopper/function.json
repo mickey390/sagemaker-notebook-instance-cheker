@@ -1,0 +1,8 @@
+{
+    "name": "notebook-instance-stopper",
+    "description": "Stop inservice statement Sagemaker Notebook Instance",
+    "runtime": "python3.6",
+    "memory": 128,
+    "timeout": 5,
+    "handler": "index.lambda_handler"
+}
